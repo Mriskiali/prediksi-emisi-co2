@@ -56,7 +56,6 @@ def main():
     # --- MAIN CONTENT ---
 
     st.subheader("Data Awal Kendaraan (Sample dari Dataset)")
-    st.caption("Data diambil dari representasi kendaraan tiap merek pada dataset output.csv")
     st.dataframe(df, width='stretch')
 
     st.subheader("Data yang Digunakan untuk Prediksi")
